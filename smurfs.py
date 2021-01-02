@@ -25,7 +25,7 @@ class Prison:
 class BasicSmurf:
 
     def __init__(self, name):
-        self.smurf = name
+        self.name = name
     
     def into_light_room(self, lightStatus):
         return lightStatus
